@@ -6,7 +6,7 @@
     height: 100%;
     padding: 0% 10% 0%;
     z-index: 1;
-    translate: 0vw 37vw;
+    translate: 0vw 47vw;
 }
 body{
     background-color: brown;
@@ -28,7 +28,7 @@ body{
     z-index: 0;
     position: absolute;
     background-image: radial-gradient( rgba(255, 0, 162, 0.523),rgba(255, 0, 247, 0.209),rgba(194, 25, 232, 0.155),rgba(7, 238, 246, 0),rgba(0, 71, 252, 0));
-    translate:22vw -20vw;
+    translate:22vw -30vw;
     scale: 0.7;
     padding:30%;
 }
@@ -43,48 +43,48 @@ body{
 .pyra{
     position: relative;
     transform: scale(0.6);
-    translate: 11vw -10vw;
+    translate: 11vw -21vw;
 }
 .desert{
     position: absolute;
     width: 80%;
     transform: scale(-1,1);
-    translate: 0vw 5.5vw;
+    translate: 0vw -4.5vw;
     padding: 0%;
 }
 .bg-first-div{
     position: absolute;
     background-image: linear-gradient(to right,#c38151,#ce925c,#e1a565,#e7b37d,#e9b669);
-    margin-top: 28%;
+    margin-top: 26%;
     padding: 40% 40%;
 }
 .bg-second-div{
     position: relative;
     background-color:#c58d6d;
-    margin-top: 61vw;
+    margin-top: 60vw;
     padding: 90% 50%;
     min-width: 0.3%;
 }
 .textt{
    rotate: 0.1deg;
-   translate: 0.4% 62.5vw;
+   translate: 0.4% 61.3vw;
 } 
 .bottom-behind{
     position: absolute;
     background-color:#e58a56;
     padding: 50% 40%;
-    margin-top:239.9% ;
+    margin-top:229.2% ;
 }
 .desert_bg{
     width: 100%;
     scale: 1;
     opacity: 0.2;
-    margin-top: 38%;
+    margin-top: 25.6%;
 }
 .camel{
     z-index: 2;
     scale: 0.3;
-    margin-top: -67%;
+    margin-top: -69%;
 }
 .camel-shadow{
     z-index: 1;
@@ -93,7 +93,7 @@ body{
     padding: 10% 1% 0%;
     scale: 0.5;
     rotate: -5deg;
-    translate: 3% 1010%;
+    translate: 3% 880%;
 }
 .bottom-front{
     z-index: 3;
@@ -101,7 +101,7 @@ body{
     position: absolute;
     background-color:#eebc93;
     padding: 50% 40%;
-    margin-top: 240%;
+    margin-top: 229.2%;
 }
 .left{
   position: absolute;
@@ -112,7 +112,7 @@ body{
 }
 .left-b{
   position: absolute;
-  padding: 120% 8% 189.5%;
+  padding: 120% 8% 188.9%;
   margin: 64.4% -.9%;
   background-color: #ce925c;
 }
@@ -125,7 +125,7 @@ body{
   }
 .right-b{
     position: absolute;
-    padding: 120% 8% 189.9%;
+    padding: 120% 8% 189.3%;
     margin: 64% 83.6%;
     background-image:linear-gradient(#fac577,#ce925c,#ce925c,#ce925c);
 } 
@@ -227,7 +227,7 @@ body{
 }
 .para{
     margin:0vw 5vw 0vw 8.5vw;
-    translate: 0vw -2vw;
+    translate: 0vw -3vw;
     transition: 100ms;
     scale: 0.6;
     font-family: 'Permanent Marker', cursive;
@@ -245,7 +245,7 @@ body{
 }
 #navvv{
     display: flex;
-    translate:2vw 1vw;
+    translate:2vw -1.7vw;
     justify-content: center;
     align-content: flex-end;
 }
