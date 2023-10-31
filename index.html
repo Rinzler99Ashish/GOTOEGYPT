@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        html {
+          scroll-behavior: smooth;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -17,119 +22,135 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=IM+Fell+French+Canon&family=Montserrat:wght@800&family=Playfair+Display&display=swap" rel="stylesheet">    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/menu-grid-o.css' rel='stylesheet'>
 </head>
 <body>
-    <img class="sky-pro1" src="./nightsky2.jpg" alt="sky">
-    <img class="sky" src="./nightsky2.jpg" alt="night sky">
-    <div class="twilight-bb"></div>
-    <div class="bb-g">
-        <div class="left"></div>
-        <div class="left-b"></div>
-        <div class="right"></div>
-        <div class="right-b"></div>
-        <section id="back">
-            <div class="twilight"></div>
-            <img class="pyra" src="./pyramid.png" alt="Pyramid">
-            <img class="desert" src="./desert.png" alt="desert">
-            <div class="bg-first-div"></div>
-            <img class="textt" src="./text.png" alt="text">
-            <div class="bg-second-div"></div>
-            <div class="bottom-behind"></div>
-            <div class="bottom-front"></div>
-            <div class="camel-shadow"></div>
-            <img class="desert_bg" src="./camel-bg.png" alt="camel">
-            <img class="camel" src="./camel.png" alt="desert">
-        </section>  
-    </div>
-        <!-- <template> -->
-    <section id="front">
-        <nav id="navi">
-            <div id="nav-div">
-                <input type="checkbox" id="barr" for="men"><label id="labal" for="barr"><i class="gg-menu-grid-o"></i></label>
+    <div id="mainn">
+        <img class="sky-pro1" src="./nightsky2.jpg" alt="sky">
+        <img class="sky" src="./nightsky2.jpg" alt="night sky">
+        <div class="twilight-bb"></div>
+        <div class="twilight"></div>
+        <a href="#VDOE" id="scroll-down"><label for="scroll-down"><span id="scroll-d" class="material-symbols-outlined">keyboard_double_arrow_down</span></label> </a>
+        <div class="bb-g">
+            <div class="left"></div>
+            <div class="left-b"></div>
+            <div class="right"></div>
+            <div class="right-b"></div>
+            <section id="back">
+                <img class="pyra" src="./pyramid.png" alt="Pyramid">
+                <img class="desert" src="./desert.png" alt="desert">
+                <img class="man" src="./man.png" alt="man">
+                <img class="man-shadow" src="./man-shadow.png" alt="man-shadow">
+                <div class="bg-first-div"></div>
+                <div class="GOTO-tx">GOTOEGYPT</div>
+                <img class="textt" src="./text.png" alt="text">
+                <div class="bg-second-div"></div>
+                <div class="bottom-behind"></div>
+                <div class="bottom-front"></div>
+                <div class="camel-shadow"></div>
+                <img class="desert_bg" src="./camel-bg.png" alt="camel">
+                <img class="camel" src="./camel.png" alt="desert">
+            </section>  
+        </div>
+        <section id="front">
+            <nav id="navi">
+                <div id="nav-div">
+                    <input type="checkbox" id="barr"><label id="labal" for="barr"><i class="gg-menu-grid-o"></i></label>
 
-                <div id="fle">
-                    <h1 id="rat">
-                        <div class="menu-logo">
-                            <span id="logon1" class="logo1">GOTO</span><span class="logo2">EGYPT</span>
-                        </div>   
-                        <label for="barr"><span class="material-symbols-outlined">close</span></label>
-                    </h1>
-                
-                    <p class="para">Home</p>
-                    <p class="para">Explore</p>
-                    <p class="para">Articles</p>
-                    <p class="para">Galries</p>
-                    <p class="para">Contact</p>
+                    <div id="fle">
+                        <h1 id="rat">
+                            <div class="menu-logo">
+                                <span id="logon1" class="logo1">GOTO</span><span class="logo2">EGYPT</span>
+                            </div>   
+                            <label for="barr"><span class="material-symbols-outlined">close</span></label>
+                        </h1>
                     
-                    <nav id="navvv">
-                        <a href=""><img class="navv" id="fbb" src="./inss.png"></a>
-                        <a href=""><img class="navv" id="twi" src="./twitter.png"></a>
-                        <a href=""><img class="navv" id="ins" src="./fb.png"></a>
-                        <a href=""><img class="navv" id="yt" src="./yt.png"></a>
-                    </nav>
+                        <p class="para">Home</p>
+                        <p class="para">Explore</p>
+                        <p class="para">Articles</p>
+                        <p class="para">Galries</p>
+                        <p class="para">Contact</p>
+                        
+                        <nav id="navvv">
+                            <a href=""><img class="navv" id="fbb" src="./inss.png"></a>
+                            <a href=""><img class="navv" id="twi" src="./twitter.png"></a>
+                            <a href=""><img class="navv" id="ins" src="./fb.png"></a>
+                            <a href=""><img class="navv" id="yt" src="./yt.png"></a>
+                        </nav>
+                    </div>
+                    
+                    <a href="" class="nav-ico">Home</a>
+                    <a href="" class="nav-ico">Explore</a>
+                    <a href="" class="nav-ico">Articles</a>
+                    <a href="" class="nav-ico">Galries</a>
+                    <a href="" class="nav-ico">Contact</a>
                 </div>
-                
-                <a href="" class="nav-ico">Home</a>
-                <a href="" class="nav-ico" id="explore">Explore</a>
-                <a href="" class="nav-ico">Articles</a>
-                <a href="" class="nav-ico">Galries</a>
-                <a href="" class="nav-ico">Contact</a>
+                <div id="logon">
+                    <span class="logo1">GOTO</span><span class="logo2">EGYPT</span>  
+                </div>                                     
+            </nav>
+
+            <div class="top-fixed">
+                <p class="hid_top1">THE ANCIENT WORLD</p>
+                <hr width="40vw" color="#ad7654" />
+                <p class="hid_top2">Discover the awe-inspiring<br> Pyramids of Giza and ancient's Egypt's</p>
             </div>
-            <div id="logon">
-                <span class="logo1">GOTO</span><span class="logo2">EGYPT</span>  
-            </div>                                     
-        </nav>
-        <!-- <div>
-            <p class="hid_top">The Ancient World</p>
-            <hr/>
-            <p class="hid_top">Discover the last remaining of the ancient Egypt</p>
-        </div>
-        <div>
-            <p>THE ANCIENT</p>
-            <p>Egyptian Civilization</p>
-            <p>The ancient Egyptian Civilization, famous for its pyramids, pharoahs, mummies, and tombs, flourished for thousands of years. But what was its lasting impact?</p>
-            <p>Watch the video below to learn how ancient Egypt contributed to modern-day society with its many cultural developments, particularly in language & mathematics</p>
-            <video id="vidd" height="150px" width="250px" controls><source src="./Luxury Desert Experience in Dubai_ Camel Safari with Dinner and Emirati Activities.mp4" type="video/mp4"></video>
-        </div>
-        <div>
-            <p>10 THINGS</p>
-            <p>You probably didn't know about ancient Egypt</p>
-            <p>His original name was Not Tutankhamun </p>
-            <p>Tutankhamun was originally named Tutankhaten. This name, which literally means "living image of the Aten", reflected the fact that Tutankhaten's parents worshipped a sun god known as "the Aten". After a few years on the throne the young king</p>
-            <p>Read More</p>
-        </div>
-        <div>
-            <p>Cats were represented In religious practices</p>
-            <p>Cats in ancient Egypt were represented in social and religious practices of Ancient Engypt fo rmore than 30 centuries. Several Ancient Egyptian deties were depicted and sculptured with cat-like heads such as Mafdet, Bastet and Sekhmet, representing justice, fertility and power. The deity Mut was also depicted as a cat and in the company of a cat.</p>
-            <p>Read More</p>
-        </div>
-        <button type="button"><p>SHOW MORE</p></button>
-        <div>
-            <p>GO BACK IN TIME</p>
-            <p>With out top</p><p> experiences</p>
-            <p>magnifient monuments, lush delta, and with its long past and welcoming, story-loving people.</p>
-            <p>BACK</p>
-            <img src="./red.jpg" alt="Red pyramid">
-            <img src="./giza_pyramid.jpg" alt="pyramid">
-            <img src="./valley_of_the_kings.jpg" alt="valley of the kings">
-            <p>NEXT</p>
-        </div>
-        <footer>
-            <p>THANK YOU</p>
-            <p>To our Sponsors and Events Partners</p>
-            <img src="./natgeo.png" alt="National Geographic">
-            <img src="./pyramid_inter.png" alt="Pyramid International">
-            <img src="./bbc.png" alt="BBC">
-            <img src="./lonely_planet.png" alt="Lonely Planet">
-            <button type="button">BOOK NOW</button>
-            <hr>
+        </section>
+        <section class="above-all">
+            <div id="VDOE" class="VDO">
+                <p class="sec1">THE ANCIENT</p>
+                <p class="sec2"> Civilization</p>
+                <p class="sec3">The ancient Egyptian Civilization, famous for its pyramids, pharoahs, mummies, and tombs, flourished for thousands of years. But what was its lasting impact?</p>
+                <p class="sec4">Watch the video below to learn how ancient Egypt contributed to modern-day society with its many cultural developments, particularly in language & mathematics</p>
+                <video id="vidd" poster="./thumbnail.jpg" controls><source src="./Luxury Desert Experience in Dubai_ Camel Safari with Dinner and Emirati Activities.mp4" type="video/mp4"></video>
+            </div>
+            <div id="readme-1">
+                <p class="sev1">10 THINGS</p>
+                <p class="sev2">You probably didn't know about</p>
+                <p class="sev3">His original name was Not Tutankhamun </p>    
+                <input type="checkbox" id="readcheck" ><label id="loo" for="readcheck"><p id="readme1">Read More</p></label>
+                <p id="sev4">Tutankhamun was originally named Tutankhaten. This name, which literally means "living image of the Aten", reflected the fact that Tutankhaten's parents worshipped a sun god known as "the Aten". After a few years on the throne the young king changed his religion, abandoned the Aten, and started to worship the god Amun [who was revered as king of the gods]. This caused him to change his name to Tutankhamun, or “living image of Amun”.</p>
+                <label id="lo" for="readcheck"><p>Read Less</p></label>
+                <img class="khamun" src="./khamun.png" alt="">
+                <div class="khamun-back"></div>
+                <div class="shadow1"></div>
+                <div class="shadow2"></div>
+            </div>
+            <div class="readme-2">
+                <p class="cat1">Cats were represented In religious practices</p>
+                <p class="cat2">Cats in ancient Egypt were represented in social and religious practices of Ancient Engypt fo rmore than 30 centuries. Several Ancient Egyptian deties were depicted and sculptured with cat-like heads such as Mafdet, Bastet and Sekhmet, representing justice, fertility and power. The deity Mut was also depicted as a cat and in the company of a cat.</p>
+                <p class="readme2">Read More</p>
+                <img class="cat" src="./cat.png" alt="egypt-cat">
+                <div class="cat-back"></div>
+                <div class="shadow1c"></div>
+                <div class="shadow2c"></div>
+            </div>
+            <!-- <button type="button"><p>SHOW MORE</p></button>
             <div>
-                <p>All rights reserved@2019</p>
-                <p>GOTOEGYPT</p>
-                <p>Privacy</p>
-                <p>Disclamer</p>
-                <p>Contact</p>
+                <p>GO BACK IN TIME</p>
+                <p>With out top</p><p> experiences</p>
+                <p>magnifient monuments, lush delta, and with its long past and welcoming, story-loving people.</p>
+                <p>BACK</p>
+                <img src="./red.jpg" alt="Red pyramid">
+                <img src="./giza_pyramid.jpg" alt="pyramid">
+                <img src="./valley_of_the_kings.jpg" alt="valley of the kings">
+                <p>NEXT</p>
             </div>
-        </footer> -->
-    </section>
-        <!-- </template> -->
+            <footer>
+                <p>THANK YOU</p>
+                <p>To our Sponsors and Events Partners</p>
+                <img src="./natgeo.png" alt="National Geographic">
+                <img src="./pyramid_inter.png" alt="Pyramid International">
+                <img src="./bbc.png" alt="BBC">
+                <img src="./lonely_planet.png" alt="Lonely Planet">
+                <button type="button">BOOK NOW</button>
+                <hr>
+                <div>
+                    <p>All rights reserved@2019</p>
+                    <p>GOTOEGYPT</p>
+                    <p>Privacy</p>
+                    <p>Disclamer</p>
+                    <p>Contact</p>
+                </div>
+            </footer> -->
+        </section>
+    </div>    
 </body>
 </html>
