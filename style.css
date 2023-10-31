@@ -455,7 +455,7 @@ body{
 }
 #readcheck:checked ~ #lo{
     opacity: 1;
-    translate:-6.4vw 1vw;
+    translate: 0.5vw 1vw;
 }
 .khamun{
     scale: 0.5;
