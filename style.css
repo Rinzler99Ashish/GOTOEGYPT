@@ -435,6 +435,9 @@ body{
     translate: 2vw 13vw;
     text-decoration: underline;
 }
+#readme1:hover{
+    text-decoration: none;
+}
 #lo{
     opacity: 0;
     color: #4f321a;
@@ -444,6 +447,9 @@ body{
     translate: 2vw 13vw;
     text-decoration: underline;
     translate:-45vw 1vw;
+}
+#lo:hover{
+    text-decoration: none;
 }
 #readcheck{
     opacity: 0;
@@ -499,7 +505,7 @@ body{
     line-height: 3.7vw;
     font-size: 3vw;
     font-family: 'Playfair Display', serif;
-    width: 30vw;
+    width: 32vw;
     line-height: 3.5vw;
     text-align: left;
 }
@@ -518,10 +524,13 @@ body{
     font-family: 'Roboto', sans-serif;
     text-decoration: underline;
 }
+#readme2:hover{
+    text-decoration: none;
+}
 .cat{
     position: absolute;
     scale: 0.35;
-    translate: -64vw -48vw;
+    translate: -64vw -45vw;
 }
 .cat-back{
     position: absolute;
@@ -531,12 +540,12 @@ body{
     width: 24vw;
     rotate: 105deg;
     border-radius: 50%;
-    translate: -38vw -28.5vw;
+    translate: -38vw -25.5vw;
     background-image: linear-gradient(45deg,#e5b894,#e5b89470,#e5b89424,#e5b89400);
 }
 .shadow1c{
     position: absolute;
-    translate: -37vw -6vw;
+    translate: -37vw -3vw;
     width: 20vw;
     height: 2vw;
     border-radius: 30%;
@@ -544,7 +553,7 @@ body{
 }
 .shadow2c{
     position: absolute;
-    translate: -34vw -6vw;
+    translate: -34vw -3vw;
     width: 20vw;
     height: 2vw;
     border-radius: 30%;
