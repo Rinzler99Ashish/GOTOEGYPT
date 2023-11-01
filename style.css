@@ -11,7 +11,7 @@
 .man{
     position: absolute;
     z-index: 1;
-    translate: 15vw -22vw;
+    translate: 9vw -28.4vw;
     scale: 0.05;
 }
 .man-shadow{
@@ -20,7 +20,7 @@
     z-index: 1;
     scale: 0.1;
     transform: skew(-45deg);
-    translate: 30.7vw -5.9vw;
+    translate: 28.5vw -8.2vw;
 }
 body{
     background-color: brown;
@@ -436,13 +436,14 @@ body{
     text-decoration: underline;
 }
 #lo{
+    opacity: 0;
     color: #4f321a;
     position: absolute;
     font-size: 1.2vw;
     font-family: 'Roboto', sans-serif;
     translate: 2vw 13vw;
     text-decoration: underline;
-    translate:102vw 1vw;
+    translate:-45vw 1vw;
 }
 #readcheck{
     opacity: 0;
@@ -455,11 +456,12 @@ body{
 }
 #readcheck:checked ~ #lo{
     opacity: 1;
-    translate:-6.4vw 1vw;
+    translate:-33vw 1vw;
 }
 .khamun{
-    scale: 0.5;
-    translate: 13.5vw -29vw;
+    position: absolute;
+    scale: 0.4;
+    translate: -20vw -32.5vw;
 }
 .khamun-back{
     z-index: -1;
@@ -467,20 +469,22 @@ body{
     height: 20vw;
     width: 20vw;
     rotate: 105deg;
-    translate: 44vw -57vw;
+    translate: 43.5vw -15.5vw;
     background-image: linear-gradient(45deg,#e5b894,#e5b89470,#e5b89424,#e5b89400);
 }
 .shadow1{
+    position: absolute;
     width: 20vw;
     height: 2vw;
-    translate: 42vw -38vw;
+    translate: 42vw 3vw;
     border-radius: 30%;
     background-image:radial-gradient(rgba(0, 0, 0, 0.186),rgba(0, 0, 0, 0.169),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0) );
 }
 .shadow2{
+    position: absolute;
     width: 20vw;
     height: 2vw;
-    translate: 45vw -40vw;
+    translate: 45vw 3vw;
     border-radius: 30%;
     background-image:radial-gradient(rgba(0, 0, 0, 0.186),rgba(0, 0, 0, 0.169),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0) );
 }
@@ -515,28 +519,32 @@ body{
     text-decoration: underline;
 }
 .cat{
-    scale: 0.4;
-    translate: -44vw -43vw;
+    position: absolute;
+    scale: 0.35;
+    translate: -64vw -48vw;
 }
 .cat-back{
+    position: absolute;
     z-index: -1;
     position: absolute;
-    height: 23vw;
-    width: 23vw;
+    height: 24vw;
+    width: 24vw;
     rotate: 105deg;
     border-radius: 50%;
-    translate: -37vw -78vw;
+    translate: -38vw -28.5vw;
     background-image: linear-gradient(45deg,#e5b894,#e5b89470,#e5b89424,#e5b89400);
 }
 .shadow1c{
-    translate: -37vw -59vw;
+    position: absolute;
+    translate: -37vw -6vw;
     width: 20vw;
     height: 2vw;
     border-radius: 30%;
     background-image:radial-gradient(rgba(0, 0, 0, 0.186),rgba(0, 0, 0, 0.169),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0) );
 }
 .shadow2c{
-    translate: -34vw -61vw;
+    position: absolute;
+    translate: -34vw -6vw;
     width: 20vw;
     height: 2vw;
     border-radius: 30%;
