@@ -11,16 +11,16 @@
 .man{
     position: absolute;
     z-index: 1;
-    translate: 9vw -28.4vw;
-    scale: 0.05;
+    translate: 37vw 1vw;
+    width: 5vw;
 }
 .man-shadow{
-    opacity: 0;
+    opacity: 0.3;
     position: absolute;
     z-index: 1;
-    scale: 0.1;
+    width: 4vw;
     transform: skew(-45deg);
-    translate: 28.5vw -8.2vw;
+    translate: 38.6vw 1.9vw;
 }
 body{
     background-color: brown;
@@ -435,9 +435,6 @@ body{
     translate: 2vw 13vw;
     text-decoration: underline;
 }
-#readme1:hover{
-    text-decoration: none;
-}
 #lo{
     opacity: 0;
     color: #4f321a;
@@ -447,9 +444,6 @@ body{
     translate: 2vw 13vw;
     text-decoration: underline;
     translate:-45vw 1vw;
-}
-#lo:hover{
-    text-decoration: none;
 }
 #readcheck{
     opacity: 0;
@@ -466,8 +460,8 @@ body{
 }
 .khamun{
     position: absolute;
-    scale: 0.4;
-    translate: -20vw -32.5vw;
+    width: 27vw;
+    translate: -1vw -18.5vw;
 }
 .khamun-back{
     z-index: -1;
@@ -505,7 +499,7 @@ body{
     line-height: 3.7vw;
     font-size: 3vw;
     font-family: 'Playfair Display', serif;
-    width: 32vw;
+    width: 30vw;
     line-height: 3.5vw;
     text-align: left;
 }
@@ -524,13 +518,10 @@ body{
     font-family: 'Roboto', sans-serif;
     text-decoration: underline;
 }
-#readme2:hover{
-    text-decoration: none;
-}
 .cat{
     position: absolute;
-    scale: 0.35;
-    translate: -64vw -45vw;
+    width: 17vw;
+    translate: -49vw -29vw;
 }
 .cat-back{
     position: absolute;
@@ -540,12 +531,12 @@ body{
     width: 24vw;
     rotate: 105deg;
     border-radius: 50%;
-    translate: -38vw -25.5vw;
+    translate: -38vw -28.5vw;
     background-image: linear-gradient(45deg,#e5b894,#e5b89470,#e5b89424,#e5b89400);
 }
 .shadow1c{
     position: absolute;
-    translate: -37vw -3vw;
+    translate: -37vw -6vw;
     width: 20vw;
     height: 2vw;
     border-radius: 30%;
@@ -553,7 +544,7 @@ body{
 }
 .shadow2c{
     position: absolute;
-    translate: -34vw -3vw;
+    translate: -34vw -6vw;
     width: 20vw;
     height: 2vw;
     border-radius: 30%;
