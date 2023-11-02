@@ -639,8 +639,8 @@ body{
         position: fixed;
         opacity: 0.5;
         width: 100%;
-        translate: -2vw 0vw;
-        height: 110%;
+        translate: -2vw -2vw;
+        height: 120%;
         background-image: radial-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.105),black);
     }
     #navi{
