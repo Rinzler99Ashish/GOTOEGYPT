@@ -28,7 +28,7 @@ body{
 .sky-pro1{
     z-index: -2;
     position: fixed;
-    width: 99.7vw;
+    width: 100vw;
     translate: -1vw -1vw;
 }
 .sky{
@@ -37,7 +37,7 @@ body{
     z-index: -2;
     translate: 10vw 10vw;
     width: 78.5%;
-}
+} 
 .twilight{
     z-index: 0;
     position: absolute;
@@ -567,7 +567,7 @@ body{
         z-index: 1;
         width: 4vw;
         transform: skew(-45deg);
-        translate: 51.6vw 7s.9vw;
+        translate: 51.8vw 8vw;
     }
     #hrd{
         opacity: 0;
@@ -652,6 +652,7 @@ body{
         translate: 0% 0%;
     }
     #fle{
+        scale: 1.4;
         z-index: 1;
         background-image: linear-gradient(#e5b894,#e5b894,#e5b894e3,#e5b894d7); 
         color: rgb(255, 255, 255);
@@ -662,19 +663,19 @@ body{
         border-radius: 0%;
         flex-direction: column;
         background-size: cover;
-        margin: 30vw -55vw;
+        translate: 10vw ;
     }
     .gg-menu-grid-o{
         scale: 0.6;
         color: #ad764a;
         position: relative;
-        translate: -3.3vw 0.5vw;
+        translate: -2.3vw 1vw;
     }
     .gg-menu-grid-o:hover{
         scale: 0.8;
     }
     #barr:checked ~ #fle{
-        margin: -1.9vw -4.5%;
+        translate: 8vw 8vw;
     }
     .nav-ico{
         max-width: 9vw;
@@ -703,7 +704,7 @@ body{
         position: relative;
         background-color:#c38151;
         margin-top: 38vw;
-        padding: 100% 50.4% 100%;
+        padding: 100% 50.4% 200%;
         min-width: 0.3%;
     }
     .top-fixed{
@@ -765,11 +766,11 @@ body{
     }
     .sec3{
         position: relative;
-        width: 48vw;
+        width: 45vw;
         height: 20vw;
-        line-height: 3.5vw;
+        line-height: 4vw;
         text-align: left;
-        font-size: 2.7vw;
+        font-size: 2.8vw;
         translate: -10vw 1vw;
         font-family: 'Playfair Display', serif;
     }
@@ -777,10 +778,10 @@ body{
         position: relative;
         width: 48vw;
         height: 20vw;
-        line-height:3.5vw;
+        line-height:4vw;
         text-align: left;
-        font-size: 3vw;
-        translate: 36vw -22.5vw;
+        font-size: 2.8vw;
+        translate: 37vw -22.5vw;
         font-family: 'Playfair Display', serif;
     }
     #vidd{
@@ -804,7 +805,7 @@ body{
         position: absolute;
         background-color:#e58a56;
         padding: 50% 50.5%;
-        margin-top:210.2% ;
+        margin-top:300.2% ;
     }
     .bottom-front{
         z-index: 3;
@@ -812,7 +813,7 @@ body{
         position: absolute;
         background-color:#eebc93;
         padding: 50% 50.5%;
-        margin-top: 210.2%;
+        margin-top: 300.2%;
     }
     .desert_bg{
         width: 100.28%;
@@ -836,20 +837,20 @@ body{
     }
     .material-symbols-outlined{
         scale: 0.8;
-        translate:19vw -7.8vw;
+        translate:21vw -6.8vw;
     }
     .material-symbols-outlined:hover{
-        scale: 1;
-        translate: 18vw -7.8vw;
+        scale: 0.9;
+        translate:21vw -6.8vw;
     }
     #rat{
         scale: 1.2;
         margin: 0px;
-        translate: 11% 40%;
+        translate: 11% 45%;
     }
     .para{
-        margin:0vw 5vw 0vw 7vw;
-        translate: 3vw -6vw;
+        margin:0.5vw 5vw 0vw 5vw;
+        translate: 3vw -4vw;
         transition: 40ms;
         scale: 0.8;
         font-family: 'Permanent Marker', cursive;
@@ -911,7 +912,7 @@ body{
         opacity: 1;
         color: #4f321a;
         position: absolute;
-        font-size: 1.2vw;
+        font-size: 2vw;
         font-family: 'Roboto', sans-serif;
         translate: 2vw 13vw;
         text-decoration: underline;
@@ -934,16 +935,17 @@ body{
     }
     .readme-2{
         position: relative;;
-        translate: 55vw 117vw;
+        translate: 55vw 140vw;
         width: 30vw;
         text-align: center;
         color: white;
+        scale: 1.5;
     }
     .cat1{
         line-height: 3.7vw;
         font-size: 3vw;
         font-family: 'Playfair Display', serif;
-        width: 30vw;
+        width: 32vw;
         line-height: 3.5vw;
         text-align: left;
     }
@@ -951,21 +953,21 @@ body{
         width: 30vw;
         line-height: 2.5vw;
         text-align: left;
-        font-size: 1.2vw;
+        font-size: 2vw;
         font-family: 'Playfair Display', serif;
     }
     .readme2{
         translate: 0vw -2vw;
         color: #4f321a;
         position: absolute;
-        font-size: 1.2vw;
+        font-size: 2vw;
         font-family: 'Roboto', sans-serif;
         text-decoration: underline;
     }
     .cat{
         position: absolute;
         width: 17vw;
-        translate: -49vw -29vw;
+        translate: -39vw -29vw;
     }
     .cat-back{
         position: absolute;
@@ -975,12 +977,12 @@ body{
         width: 24vw;
         rotate: 105deg;
         border-radius: 50%;
-        translate: -38vw -28.5vw;
+        translate: -28vw -28.5vw;
         background-image: linear-gradient(45deg,#e5b894,#e5b89470,#e5b89424,#e5b89400);
     }
     .shadow1c{
         position: absolute;
-        translate: -37vw -6vw;
+        translate: -27vw -6vw;
         width: 20vw;
         height: 2vw;
         border-radius: 30%;
@@ -988,7 +990,7 @@ body{
     }
     .shadow2c{
         position: absolute;
-        translate: -34vw -6vw;
+        translate: -24vw -6vw;
         width: 20vw;
         height: 2vw;
         border-radius: 30%;
