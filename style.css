@@ -796,7 +796,7 @@ body{
         rotate: 0.2deg;
         position: absolute;
         z-index: 1;
-        font-size: 16.4vw;
+        font-size: 16.9vw;
         translate: 0vw 74vw;
         color:#c38151;
         font-family: 'Playfair Display', serif;
@@ -804,7 +804,7 @@ body{
     .bottom-behind{
         position: absolute;
         background-color:#e58a56;
-        padding: 50% 50.5%;
+        padding: 60% 50.5%;
         margin-top:300.2% ;
     }
     .bottom-front{
@@ -812,14 +812,14 @@ body{
         opacity: 0.4;
         position: absolute;
         background-color:#eebc93;
-        padding: 50% 50.5%;
+        padding: 60% 50.5%;
         margin-top: 300.2%;
     }
     .desert_bg{
         width: 100.28%;
         scale: 1;
         opacity: 0.2;
-        margin-top: -17%;
+        margin-top: -48%;
     }
     .camel{
         z-index: 2;
@@ -833,7 +833,7 @@ body{
         padding: 10% 1% 0%;
         scale: 0.5;
         rotate: -5deg;
-        translate: 3% 460%;
+        translate: 3% 130%;
     }
     .material-symbols-outlined{
         scale: 0.8;
