@@ -649,7 +649,7 @@ body{
         display: flex;
         font-size: 3vw;
         width: 95%;
-        translate: 0% 0%;
+        translate: -3% 0%;
     }
     #fle{
         scale: 1.4;
@@ -669,7 +669,7 @@ body{
         scale: 0.6;
         color: #ad764a;
         position: relative;
-        translate: -2.3vw 1vw;
+        translate: -2.3vw 0vw;
     }
     .gg-menu-grid-o:hover{
         scale: 0.8;
