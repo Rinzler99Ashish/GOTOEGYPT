@@ -922,16 +922,20 @@ body{
         translate:-28vw -4vw;
     }
     .khamun{
-        translate: -1vw -22.5vw;
+        scale: 1.3;
+        translate: -1vw -24vw;
     }
     .khamun-back{
-        translate: 37.5vw -19.5vw;
+        scale: 1.2;
+        translate: 38.5vw -19.5vw;
     }
     .shadow1{
-        translate: 38vw -1vw;
+        scale: 1.2;
+        translate: 36vw 1vw;
     }
     .shadow2{
-        translate: 38vw -1vw;
+        scale: 1.2;
+        translate: 41vw 1vw;
     }
     .readme-2{
         position: relative;;
@@ -965,11 +969,13 @@ body{
         text-decoration: underline;
     }
     .cat{
+        scale: 1.3;
         position: absolute;
         width: 17vw;
         translate: -39vw -29vw;
     }
     .cat-back{
+        scale: 1.2;
         position: absolute;
         z-index: -1;
         position: absolute;
@@ -981,16 +987,18 @@ body{
         background-image: linear-gradient(45deg,#e5b894,#e5b89470,#e5b89424,#e5b89400);
     }
     .shadow1c{
+        scale: 1.2;
         position: absolute;
-        translate: -27vw -6vw;
+        translate: -28vw -2vw;
         width: 20vw;
         height: 2vw;
         border-radius: 30%;
         background-image:radial-gradient(rgba(0, 0, 0, 0.186),rgba(0, 0, 0, 0.169),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0) );
     }
     .shadow2c{
+        scale: 1.2;
         position: absolute;
-        translate: -24vw -6vw;
+        translate: -24vw -2vw;
         width: 20vw;
         height: 2vw;
         border-radius: 30%;
