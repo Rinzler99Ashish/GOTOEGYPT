@@ -446,6 +446,18 @@ body{
     text-decoration: underline;
     translate:-45vw 1vw;
 }
+#readcheck:checked ~ .khamun{
+    translate: -1vw -30.5vw;
+}
+#readcheck:checked ~ .khamun-back{
+    translate: 38.5vw -27.5vw;
+}
+#readcheck:checked ~ .shadow1{
+    translate: 37vw -6vw;
+}
+#readcheck:checked ~ .shadow2{
+    translate: 41vw -6vw;
+}
 #readcheck{
     opacity: 0;
 }
